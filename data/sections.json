@@ -2899,6 +2899,25 @@
                 "updated": "2026-10-19",
                 "snapshot": "2026-10-21"
               }
+            },
+            {
+              "name": "Submilli",
+              "repo": "submilli/submilli-runtime",
+              "desc": "Secure runtime for code-mode agents that runs each program in its own WebAssembly sandbox that starts in under 1 ms, with default-deny semantic permissions over operations, resources and argument values, optional human approval, and durable runs that resume after a restart without repeating finished steps.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage",
+                "telemetry"
+              ],
+              "note": "— **note:** young project (v0.5.0); optional crash and usage telemetry is off by default and is enabled with `SUBMILLI_TELEMETRY` or the server `telemetry` setting.",
+              "metrics": {
+                "stars": 29,
+                "updated": "2026-10-26",
+                "snapshot": "2026-10-26"
+              }
             }
           ]
         }
