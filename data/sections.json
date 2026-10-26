@@ -2899,6 +2899,34 @@
                 "updated": "2026-10-19",
                 "snapshot": "2026-10-21"
               }
+            },
+            {
+              "name": "AEGIS",
+              "repo": "antropos17/Aegis",
+              "license": "MIT",
+              "desc": "Windows-first desktop monitor for local AI-agent processes, configured file activity, TCP endpoints and audit evidence, with opt-in selected-action policies and MCP gateways.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "**Caveat:** Windows beta; macOS/Linux remain experimental. Default monitoring observes activity; process actions are explicit, and policy/gateway controls cover only separately configured routes. Sensor gaps and incomplete attribution remain possible. Optional Anthropic analysis sends activity metadata on request using the operator's API key.",
+              "sources": [
+                {
+                  "label": "Capabilities and limits",
+                  "url": "https://github.com/antropos17/Aegis/blob/1537d7e7943c2583059f10c9c1da395031e4b2a9/README.md"
+                },
+                {
+                  "label": "Published Windows beta",
+                  "url": "https://github.com/antropos17/Aegis/releases/tag/aegis-v0.20.1-beta"
+                }
+              ],
+              "metrics": {
+                "stars": 158,
+                "updated": "2026-10-26",
+                "snapshot": "2026-10-26"
+              }
             }
           ]
         }
