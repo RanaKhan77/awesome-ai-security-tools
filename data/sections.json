@@ -2899,6 +2899,42 @@
                 "updated": "2026-10-19",
                 "snapshot": "2026-10-21"
               }
+            },
+            {
+              "name": "Tracekit",
+              "repo": "Cygnux-Labs/Tracekit",
+              "org": "Cygnux Labs",
+              "desc": "Out-of-process signer and policy service for intercepted agent tool calls, with argument-bound allow/deny/human-approval decisions and signed hash-chained run records exportable for offline verification.",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage",
+                "commercial_features"
+              ],
+              "note": "**Caveat:** young project with limited independent adoption. Only calls routed through configured adapters, hooks or gateways are checked and recorded. Default dev mode shares an OS account with the agent; protect signer keys, code, policy and storage through an actual isolation boundary. Detecting truncation or re-signing requires independently trusted witnesses/anchors. Signed records do not prove that every action was captured or that a reported event occurred; command/tool-name rules are heuristic prevention, not a general prompt-injection defense. Published benchmark results are project-reported. The hosted Enterprise product is separate; the MIT signer remains available without it.",
+              "sources": [
+                {
+                  "label": "Security model and evaluation limits",
+                  "url": "https://github.com/Cygnux-Labs/Tracekit/blob/218f2bf0c4628e8621d984a167136d2e779217d2/docs/concepts/security-model.md"
+                }
+              ],
+              "related": [
+                {
+                  "label": "node9",
+                  "url": "https://github.com/node9-ai/node9-proxy"
+                },
+                {
+                  "label": "Agentmetry",
+                  "url": "https://github.com/blitzcrieg1/agentmetry"
+                }
+              ],
+              "metrics": {
+                "stars": 352,
+                "updated": "2026-10-28",
+                "snapshot": "2026-10-28"
+              }
             }
           ]
         }
